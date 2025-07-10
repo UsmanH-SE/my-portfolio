@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Usman Haider | Front-End Developer</title>
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">Usman</div>
+        <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span>Usman</span></h1>
+            <h2>Front-End Web Developer</h2>
+            <p>I build clean, modern, and responsive websites with HTML, CSS & JavaScript.</p>
+            <a href="#projects" class="btn">See My Work</a>
+        </div>
+        <div class="hero-image">
+            <img src="images\11641810_4758689.jpg" alt="Developer Illustration">
+        </div>
+    </section>
+    <!-- ===== ABOUT SECTION ===== -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                I'm Usman Haider, a passionate front-end developer who loves to create responsive and user-friendly
+                websites. I'm currently focused on mastering HTML, CSS, and JavaScript to build clean and modern UIs.
+            </p>
+            <p>
+                My mission is to build websites that not only look great but also provide a smooth user experience.
+            </p>
+            <a href="//www.linkedin.com/in/usmanhaider-frontend/" class="btn">Let’s Connect</a>
+        </div>
+    </section>
+    <!-- ===== SKILLS SECTION ===== -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">HTML5</div>
+                <div class="skill-card">CSS3</div>
+                <div class="skill-card">JavaScript</div>
+                <div class="skill-card">Responsive Design</div>
+                <div class="skill-card" id="version">Git & GitHub</div>
+
+            </div>
+        </div>
+    </section>
+    <!-- ===== PROJECTS SECTION ===== -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Portfolio Website</h3>
+                    <p>This is the current website you're viewing, built using HTML, CSS, and JavaScript.</p>
+                    <a href="#" class="project-link" target="_blank">Live Demo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===== CONTACT SECTION ===== -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>If you'd like to work together or have any questions, feel free to reach out!</p>
+
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required />
+                <input type="email" name="email" placeholder="Your Email" required />
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <p id="success-message" style="display: none; color: green;">
+                Your form has been submitted successfully.
+            </p>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Usman Haider. All rights reserved.</p>
+            <div class="footer-socials">
+                <a href="https://www.linkedin.com/in/usmanhaider-frontend/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/UsmanH-SE" target="_blank">GitHub</a>
+                <a href="usmanhaider.webdev@gmail.com" target="_blank">Email</a>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
